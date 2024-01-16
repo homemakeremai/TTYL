@@ -88,7 +88,4 @@ jobs:
         ./kustomize edit set image LOCATION-docker.pkg.dev/PROJECT_ID/REPOSITORY/IMAGE:TAG=$GAR_LOCATION-docker.pkg.dev/$PROJECT_ID/$REPOSITORY/$IMAGE:$GITHUB_SHA
         ./kustomize build . | kubectl apply -f -
         kubectl rollout status deployment/$DEPLOYMENT_NAME
-        kubectl get services -o wide
-code playground title
-free channels
-gh repo clone homemakeremail/Ehilntwy-3.14-TT-support-of-Neurolink.
+        kubectl get services -o wide.
