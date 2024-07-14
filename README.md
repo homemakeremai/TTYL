@@ -1,3 +1,3 @@
 # TTYL
 One second.
-docker pull jarax/g.dev
+docker jarax/g.dev
